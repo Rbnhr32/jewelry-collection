@@ -1,0 +1,183 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.product {
+    width: 200px;
+    text-align: center;
+    margin: 1em;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h2 {
+    font-family: 'Cormorant', serif;
+    color: #ffbf9b;
+}
+
+button {
+    background-color: #ffbf9b;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* General Page Layout */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header .logo {
+    font-family: 'Cormorant', serif;
+    color: #ffbf9b;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fdfdfd;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+nav ul li a:hover {
+    color: #ffbf9b;
+    background-color: #444;
+    border-radius: 4px;
+}
+
+/* Page Title */
+section.products h1 {
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Product Section Layout */
+section.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Product Card Styling */
+.product {
+    width: 220px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 18px;
+    color: #ffbf9b;
+    font-weight: bold;
+}
+
+button {
+    background-color: #333;
+    color: #fdfdfd;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+button:hover {
+    background-color: #ffbf9b;
+    color: #fff;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fdfdfd;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p,
+.footer-content a {
+    color: #fdfdfd;
+    margin: 5px 0;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #ffbf9b;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+
+
+
